@@ -1,6 +1,6 @@
 """Hype machine assignment for EX01."""
 
-__author__: str = "730391039"
+__author__ = "730391039"
 
 # TODO: Implement your program logic here
 
