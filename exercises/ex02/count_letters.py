@@ -11,8 +11,6 @@ frequency: str = ""
 while i < len(word):
     if word[i] == letter:
         frequency = frequency + letter
-    else:
-        frequency == 0
     i = i + 1
 count: int = len(frequency)
 count_string: str = str(count)
