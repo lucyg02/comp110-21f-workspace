@@ -12,12 +12,15 @@ __author__ = "730391039"
 from random import randint
 
 print("Your fortune cookie says...")
-random_number: int = randint(1, 3)
+random_number: int = randint(1, 4)
 if random_number == 1:
     print("You will have a long and fruitful life.")
 else:
     if random_number == 2:
         print("You will do well in your classes this semester.")
     else:
-        print("A great change is coming.")
+        if random_number == 3:
+            print("A great change is coming.")
+        else:
+            print("Your day will imprive greatly.")
 print("Now, go spread positive vibes!")
